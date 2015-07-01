@@ -1,6 +1,4 @@
 update-ca-certificates
-service docker stop
-service docker start
 mkdir /disks
 mkdir /files
 for i in {1..2}; do
